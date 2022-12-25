@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Engagement&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400&family=Poppins:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Engagement', cursive;
+    box-sizing: border-box;
+}
+.a-font-family{
+    font-family: 'Roboto', cursive;
+}
+
+:root {
+    --danger : red;
+    --light: #777;
+    --dark: rgb(0, 0, 0);
+    --white : #fff;
+  }
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+.wrapper{
+    background: bisque;
+    height: 100%;
+    width:100%;
+}
+
+.header{
+    background: url('/images/image2.jpg');
+    height: 80%;
+    width:100%;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  
+}
+
+.hero-title{
+    color: rgb(35, 202, 220);;
+    padding: 5px 10px 5px 10px;
+    border-radius: 1rem;
+    background: rgba(248, 239, 239, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(248, 239, 239, 0.25);
+    transition: all 300ms ease-in;
+}
+.hero-title-date{
+    color: var(--white);
+    background-color: rgb(35, 202, 220);
+    border-radius: 1rem ;
+    padding: 5px 10px 5px 10px;
+    transition: all 300ms ease-in;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.hero-title:hover{
+    cursor: pointer;
+
+    transform: translateY(-1.9rem);
+
+
+}  
+
+.hero-title-date:hover{
+    cursor: pointer;
+    background-color:  rgb(169, 221, 227);
+    transform: translateY(-1.9rem);
+
+
+}
+
+.content-1{
+    height: 50%;
+    width:100%;
+    background: var(--white);
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.content-1-left {
+    height: 100%;
+    width:50%;
+}
+.content-1-right{
+    height: 100%;
+    width:50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.map{
+    height: 70%;
+    width: 50%;
+}
+.content-2{
+    background: url('/images/image1.jpg');
+    height: 60%;
+    width:100%;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.content-4{
+    background: url('/images/image4.jpg');
+    height: 60%;
+    width:100%;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.content-3{
+    height: 70%;
+    width:100%;
+    background: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+}
+.couple-pic{
+    height: 80%;
+    object-fit: cover;
+}
+.flower{
+    height: 80%;
+    object-fit: cover;
+ 
+}
+.flower-img{
+    height: 100%;
+    width: 100%;
+}
+
+.couple-img, .sharuk-img{
+    height: 100%;
+    width: 100%;
+}
+.couple-intro{
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-header{
+    font-size: 2rem;
+}
+
+.content-5{
+    height: 70%;
+    width:100%;
+    background: var(--white);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+}
+.sharuk-pic{
+    height: 40vh;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.sharuk-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invitation-name{
+    width: 100%;
+    border-bottom: 1px solid var(--light);
+    text-align: center;
+}
+.sharuk-data{
+    font-size: 5vh;
+    overflow: hidden;
+}
+.invitation-name{
+    color:rgb(228, 73, 11);
+}
+.highlight-text{
+    color:rgb(228, 73, 11);
+    font-size: calc(5vh + 5px);
+}
+.quote1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 2rem;
+    padding: 10vw;
+    text-align: center;
+    color: var(--white);
+}
+
+.line1{
+    opacity: 0.8;
+    background-color: palevioletred;
+    font-size: 5vw;
+}
+
+.content-1-left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+}
+.convention-name{
+font-size: 2vw;
+}
+.venue{
+    font-size: 1.5vw;  
+}
+.content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    color:black;
+    outline: none;
+}
+.content-2-text{
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
+}
+.quote2{
+    background-color: #647141;
+    opacity: 0.8;
+    color:white;
+    padding: 2rem;
+}
+
+.text-right{
+    text-align: right;
+}
+.calendar{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timeline{
+    height:80%;
+    border-left: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+li, ul{
+    list-style-type: none;
+ 
+}
+
+li{
+    margin-bottom: 1.8rem;
+}
+.groom-name, li:nth-child(3){
+    font-size: 2rem;
+    background-color: crimson;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    position: relative;
+}
+.groom-name::before, li:nth-child(3)::before{
+    content:'';
+    border-right: 2rem solid crimson;;
+    border-left: 2rem solid transparent;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    transform: translate(90deg);
+    position: absolute;
+    top:0;
+    left: calc(-2rem - 2rem);
+
+}
+li:nth-child(2){
+    font-size: 2rem;
+    background-color: rgb(238, 238, 87);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    position: relative;
+}
+li:nth-child(2)::before{
+    content:'';
+    border-right: 2rem solid  rgb(238, 238, 87);;;
+    border-left: 2rem solid transparent;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    transform: translate(90deg);
+    position: absolute;
+    top:0;
+    left: calc(-2rem - 2rem);
+
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    .sharuk-data{
+        font-size: 5vw;
+        overflow: hidden;
+    }
+    .highlight-text{
+        color:rgb(228, 73, 11);
+        font-size: calc(5vw + 5px);
+    }
+    .sharuk-pic{
+        height: 40vw;
+        
+    }
+    .invitation-name{
+        font-size: 5.5vw;
+    }
+    .content-1{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .content-1-left {
+        height: 100%;
+        width:100%;
+        justify-content: center;
+
+    }
+    .content-1-right{
+        height: 100%;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .map{
+        height: 80%;
+        width: 80%;
+    }
+    .card-header{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .convention-name{
+        font-size: 4vw;
+    }
+    .venue{
+        font-size: 3vw;
+    }
+    .content-4{
+        height: 40%;
+    }
+    .content-5{
+        height: 50%;
+    }
+    .quote2{
+        font-size: 6vw;
+    }
+    .content-3{
+        height: 100%;
+        flex-direction: column-reverse;
+        padding:2rem;
+    }
+    .couple-pic{
+        height: 50%;
+        padding: 2rem;
+    }
+ 
+  }
