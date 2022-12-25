@@ -28,7 +28,7 @@ html, body{
 }
 
 .header{
-    background: url('/images/image2.jpg');
+    background: url('./images/image2.jpg');
     height: 80%;
     width:100%;
     background-size:cover;
@@ -102,7 +102,7 @@ html, body{
     width: 50%;
 }
 .content-2{
-    background: url('/images/image1.jpg');
+    background: url('./images/image1.jpg');
     height: 60%;
     width:100%;
     background-size:cover;
@@ -110,7 +110,7 @@ html, body{
     background-attachment: fixed;
 }
 .content-4{
-    background: url('/images/image4.jpg');
+    background: url('./images/image4.jpg');
     height: 60%;
     width:100%;
     background-size:cover;
